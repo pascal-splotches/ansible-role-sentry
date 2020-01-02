@@ -92,6 +92,14 @@ License
 
 MIT
 
+Testing
+-------
+Create a python [virtualenv](https://docs.python-guide.org/dev/virtualenvs/) and run
+```sh
+pip install molecule docker-py
+molecule test
+```
+
 Author Information
 ------------------
 

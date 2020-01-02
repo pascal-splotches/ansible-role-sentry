@@ -128,6 +128,8 @@
   notify: restart sentry
   tags: ['skip_ansible_lint']
   run_once: true
+  become: true
+  become_user: '{{ sentry_system_user }}'
   when: _virtualenv_install is changed or
         _virtualenv_extra is changed or
         _config_yml is changed or

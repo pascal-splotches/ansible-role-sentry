@@ -2,3 +2,4 @@
 - src: geerlingguy.redis
 - src: geerlingguy.postgresql
 - src: Duologic.postgresql_repository
+- src: pascal_splotches.sentry

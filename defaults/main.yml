@@ -1,5 +1,5 @@
 ---
-sentry_version: '9.0.0'
+sentry_version: '9.1.2'
 sentry_install_dir: '/srv/sentry'
 sentry_system_user: 'sentry'
 sentry_system_group: 'sentry'
@@ -42,7 +42,7 @@ sentry_db_port: ''
 sentry_broker_url: 'redis://localhost:6379'
 sentry_behind_ssl_proxy: false
 sentry_web_host: '0.0.0.0'
-sentry_web_port: 9000
+sentry_web_port: 9010
 sentry_auth_register: true
 # Extra configuration options, should be valid Python code
 sentry_extra_conf_py: ''

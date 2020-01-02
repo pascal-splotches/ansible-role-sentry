@@ -3,7 +3,7 @@ dependencies: []
 
 galaxy_info:
   role_name: 'sentry'
-  author: Duologic
+  author: pscheepers
   description: Sentry installation with Python.
   license: "MIT"
   min_ansible_version: 2.7
